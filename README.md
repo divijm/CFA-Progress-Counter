@@ -18,13 +18,13 @@ The applications are written in Ruby and must have it installed (Ruby 2.4 or hig
 
 2. To run the file in terminal:
 
-<p>Progress Counter: ```$ ruby progress_counter.rb```</p>
+Progress Counter: ```$ ruby progress_counter.rb```
 
-<p>Progress Counter Temperature - Version 1: ```$ ruby progress_counter_temp.rb```</p>
+Progress Counter Temperature - Version 1: ```$ ruby progress_counter_temp.rb```
 
-<p>Progress Counter Temperature - Version 2: ```$ ruby progress_counter_temp2.rb```</p>
+Progress Counter Temperature - Version 2: ```$ ruby progress_counter_temp2.rb```
 
-<p>Progress Counter Temperature - Version 3: ```$ ruby progress_counter_temp3.rb```</p>
+Progress Counter Temperature - Version 3: ```$ ruby progress_counter_temp3.rb```
 
 <h2>File History</h2>
 
