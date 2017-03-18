@@ -16,7 +16,7 @@ The applications are written in Ruby and must have it installed (Ruby 2.4 or hig
 
 1. Clone the repo.
 
-2. Caffeine Quest uses ```bundler``` to install dependencies.
+2. Use ```bundler``` to install dependencies.
 
 ```
 gem install bundler
@@ -47,6 +47,9 @@ Features:
   - getting user input for the weather on different days
   - progress counter counting
 
+![Imgur](http://i.imgur.com/VcSljRT.png)
+![Imgur](http://i.imgur.com/admi4ZO.png)
+
 ### 2nd attempt: progress_counter_temp.rb
 
 Extension of the Progress Counter application
@@ -58,6 +61,9 @@ Additions:
 - present the answers in a table using the terminal-table gem (https://github.com/tj/terminal-table)
 - color the celsius answers depending upon how hot that day was using the paint gem (https://github.com/janlelis/paint)
 - convert to Fahrenheit in a third column
+
+![Imgur](http://i.imgur.com/FWgu7Bu.png)
+![Imgur](http://i.imgur.com/2hfhktD.png)
 
 ### 3rd attempt: progress_counter_temp2.rb
 
