@@ -16,7 +16,16 @@ The applications are written in Ruby and must have it installed (Ruby 2.4 or hig
 
 1. Clone the repo.
 
-2. To run the file in terminal:
+2. Caffeine Quest uses ```bundler``` to install dependencies.
+
+```
+gem install bundler
+bundler install
+```
+
+The ```bundler install``` command must be called in the root directory of the repo.
+
+3. To run the file in terminal:
 
 Progress Counter: ```$ ruby progress_counter.rb```
 
@@ -26,9 +35,9 @@ Progress Counter Temperature - Version 2: ```$ ruby progress_counter_temp2.rb```
 
 Progress Counter Temperature - Version 3: ```$ ruby progress_counter_temp3.rb```
 
-<h2>File History</h2>
+## File History
 
-<h3>1st attempt: progress_counter.rb</h3>
+### 1st attempt: progress_counter.rb
 
 Features:
   - 2 classes - Questions and Progress Counter
@@ -36,9 +45,9 @@ Features:
   - loops
   - if statements
   - getting user input for the weather on different days
-  - progress counter
+  - progress counter counting
 
-<h3>2nd attempt: progress_counter_temp.rb</h3>
+### 2nd attempt: progress_counter_temp.rb
 
 Extension of the Progress Counter application
 
@@ -46,27 +55,26 @@ Additions:
 
 - alter the questions to refer to the temperature of each day of the week
 - record the answers from each question asked
-- present the answers in a table using the terminal-table gem
-- color the celsius answers depending upon how hot that day was
+- present the answers in a table using the terminal-table gem (https://github.com/tj/terminal-table)
+- color the celsius answers depending upon how hot that day was using the paint gem (https://github.com/janlelis/paint)
 - convert to Fahrenheit in a third column
 
-<h3>3rd attempt: progress_counter_temp2.rb</h3>
+### 3rd attempt: progress_counter_temp2.rb
 
 Additions:
 
 - general refractoring
 
-<h3>4th attempt: progress_counter_temp3.rb</h3>
+### 4th attempt: progress_counter_temp3.rb
 
 Additions:
 
 - general refractoring
 
-
-<h2>Authors</h2>
+## Authors
 Divij Mehra
 
 Mentorship and insight was sought from Trent, Jamie, Peter and other peer students.
 
-<h2>Contact Info</h2>
-Reach out to me via GitHub and email (dmehra_66@hotmail.com)
+## Contact Info
+Reach out to me via GitHub or via email (divij.mehra.16@gmail.com)
