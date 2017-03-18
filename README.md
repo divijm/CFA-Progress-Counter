@@ -62,7 +62,7 @@ Additions:
 - color the celsius answers depending upon how hot that day was using the paint gem (https://github.com/janlelis/paint)
 - convert to Fahrenheit in a third column
 
-![Imgur](http://i.imgur.com/FWgu7Bu.png)
+![Imgur](http://i.imgur.com/bQ67QWY.png)
 ![Imgur](http://i.imgur.com/2hfhktD.png)
 
 ### 3rd attempt: progress_counter_temp2.rb
